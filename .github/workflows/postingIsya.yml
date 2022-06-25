@@ -2,7 +2,7 @@ name: Posting Isya
 
 on: 
   schedule:
-    -  cron: '30 10 * * *'  # Isya at 18:30 (WIB - 7)
+    -  cron: '30 11 * * *'  # Isya at 18:30 (WIB - 7)
 
 jobs:
   publish-data:
