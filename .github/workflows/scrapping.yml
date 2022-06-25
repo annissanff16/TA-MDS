@@ -2,7 +2,7 @@ name: Scrapping
 
 on:
   schedule:
-    - cron: '15 14 * * *'  # every day at 02.00 (WIB - 7)
+    - cron: '15 15 * * *'  # every day at 02.00 (WIB - 7)
 
 jobs:
   save-data:
